@@ -1,0 +1,85 @@
+body {
+    /* background-color: #FFA263; */
+    background-image: url(../moon.jpg);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+}
+header {
+    text-align: center;
+    background-color: rgba(25, 25, 112, 0.568);
+    color: white;
+    margin:4vh 6vw 0vh 6vw;
+    min-width: 88vw;
+    max-width: 88vw;
+    min-height: 20vh;
+    max-height: 20vh;
+    border-radius: 25px;
+    font-size: 40px;
+    font-family: fantasy;
+    text-shadow: 1px 1px 5px black; 
+    border: thick white solid;
+    box-shadow: 10px 10px 10px 5px rgb(80, 68, 68);
+    overflow: hidden; 
+   
+}
+
+header h1 {
+margin-top: 20px;
+padding: 2vh 0vw 0vh 0vw;
+margin-bottom: -20px;
+min-width: 80vw;
+max-width: 80vw;
+min-height: 12vh;
+max-height: 12vh;
+}
+
+a {
+    color:white;
+}
+
+a:active {
+    color: coral;
+}
+
+a:hover {
+    color: lightblue;
+}
+
+#quote{
+    border: medium solid white;
+    background-color: rgba(25, 25, 112, 0.568);
+    margin-top: 15vh;
+    max-height: 20vh;
+    min-height: 20vh;
+    max-width: 60vw;
+    min-width: 60vw;
+    padding: 10px;
+    color: white;
+    border-radius: 25px;
+    overflow-y: scroll; 
+    text-shadow: 1px 1px 10px black; 
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    }
+
+footer{
+    display: block;
+    position:absolute;
+    max-height:2vh;
+    max-width: 90 vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top:90vh;  
+}
+
+footer a{
+    margin-left:10px;  
+}

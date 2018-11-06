@@ -1,0 +1,119 @@
+body {
+    /* background-color: #FFA263; */
+    background-image: url(../moon.jpg);
+    
+
+}
+header {
+    text-align: center;
+    /* background-color: #F57D45; */
+    color: white;
+    margin:4vh 6vw 0vh 6vw;
+    min-width: 88vw;
+    max-width: 88vw;
+    min-height: 20vh;
+    max-height: 20vh;
+    border-radius: 25px;
+    font-size: 30px;
+    font-family: fantasy;
+    text-shadow: 1px 1px 5px black; 
+    border: thick white solid;
+    box-shadow: 10px 10px 10px 5px rgb(80, 68, 68);
+    overflow: scroll;
+    background-color: rgba(25, 25, 112, 0.568);
+   
+}
+
+header h1 {
+margin-top: 20px;
+padding: 2vh 0vw 0vh 0vw;
+margin-bottom: -20px;
+min-width: 80vw;
+max-width: 80vw;
+min-height: 12vh;
+max-height: 12vh;
+}
+
+header p{
+font-size: 20px;
+margin-left: 35vw;
+min-width: 40vw;
+max-width: 40vw;
+min-height: 2vh;
+max-height: 2vh;
+
+
+}
+
+/* .random {
+    color:white;
+    font-style: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+} */
+
+#pearl {
+    min-width: 20vw;
+    max-width: 20vw;
+    min-height: 37vh;
+    max-height: 37vh;
+    margin:18vh -15vw -37vh 2vw;
+    padding: 10px;
+    display:inline-block;
+    position: absolute;
+    background-color: rgba(25, 25, 112, 0.26);
+    border-radius: 25px;
+   
+}
+
+#pearl:hover {
+    box-shadow:inset 10px 10px 3px 100px rosybrown;
+    
+}
+
+#pearl:active {
+    box-shadow:inset 10px 10px 3px 100px coral;
+}
+
+#list {
+    border-radius: 25px;
+    min-height:68vh;
+    max-height:68vh;
+    min-width:62vw;
+    max-width:62vw;
+    margin: 6vh 0vw 0vh 30vw;
+    border: medium solid white;
+    padding: 10px;
+    color:white;
+    display:inline-block;
+    overflow-y: scroll; 
+    text-overflow: ellipsis; 
+    text-shadow: 1px 1px 5px black; 
+    font-weight: bold;
+    background-color: rgba(25, 25, 112, 0.568);
+    
+    
+}
+
+
+.quotes{
+    border: 1px, solid, white;
+    min-width: 60vw;
+    max-width: 60vw;
+    min-height: 2vh;
+    max-height: 2vh;
+    margin-bottom: 2vh;
+}
+
+
+a {
+    color:white;
+}
+
+a:active {
+    color: coral;
+}
+
+a:hover {
+    color: lightblue;
+}
